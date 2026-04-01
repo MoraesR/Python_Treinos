@@ -50,6 +50,7 @@ def finalizar_app():
     exibir_subtitulo('Finalizar app')
 
 def cadastrar_novo_restaurante():
+    os.system('cls')
     exibir_subtitulo('Cadastro de novos restaurantes')
     nome_do_restaurante = input('Digite o nome do restaurante que deseja cadastrar: ')
     restaurantes.append(nome_do_restaurante)
