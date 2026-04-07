@@ -1,5 +1,7 @@
 distancia = float(input("Digite a distância percorrida em km: "))
 
+print("Preço Tabelado de Pedágio: ")
+
 if distancia <= 100:
     valor_pedagio = 10.00
 elif distancia <= 200:
