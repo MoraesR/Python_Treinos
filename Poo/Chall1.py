@@ -8,11 +8,11 @@ class Musica:
         self.duracao = duracao
     
     def __str__(self):
-        return f"{self.nome}" - {self.artista} - {self.duracao}"
+        return f"{self.nome} - {self.artista} - {self.duracao}"
 
-Musica1 = Musica("Bohemian Rhapsody", "Queen", 354) 
+musica1 = Musica("Bohemian Rhapsody", "Queen", 354) 
 musica2 = Musica("Imagine", "John Lennon", 183)
 
-def main ()
+def main ():
     print(musica1)
     print(musica2)
