@@ -26,3 +26,19 @@ class FilaCircular:
         # Incremento circular do front antes de extrair o elemento [9]
         self.front = (self.front + 1) % self.max_queue
         return self.items[self.front]
+
+
+
+if __name__ == "__main__":
+    fila = FilaCircular(tamanho=5)
+
+    fila.insere("x")
+    fila.insere("C")
+    fila.insere("X")
+    fila.insere("X")
+
+    print("Fila após inserir:", fila.items)
+    print("Removido:", fila.remove())
+    print("Fila após remover:", fila.items)
+    print("Removido:", fila.remove())
+  
