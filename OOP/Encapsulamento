@@ -1,4 +1,0 @@
-
-objeto1 = 'Descrição por extenso' 
-__objeto1__ = 'Descrição por extenso' 
-print(__objeto1__) 
