@@ -11,7 +11,6 @@ class ContaBanc():
 minhaconta = ContaBanc("Rodrigo", 1000.0)
 minhaconta.depositar(100)
 
-
 outraconta = ContaBanc("Maria", 2000.0)
 outraconta.depositar(200)
 
